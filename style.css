@@ -1,0 +1,414 @@
+*{
+  width: auto;
+  padding: auto;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  float: left;
+  /* Put a card in the next row when previous cards take all width */
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  /* There will be 3 cards per row */
+  flex-basis: 33%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.cards__item img {
+  width: 200px;
+  height: 200px;
+}
+
+.site-footer {
+background-color:white;
+padding:45px 0 20px;
+font-size:15px;
+line-height:24px;
+color: black;
+}
+
+.site-footer h6
+{
+border-radius: 15px;
+background-color: blue;
+color:#fff;
+font-size:16px;
+text-transform:uppercase;
+margin-top:5px;
+letter-spacing:2px
+}
+.site-footer a
+{
+color:#737373;
+}
+.site-footer a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links
+{
+padding-left:0;
+list-style:none
+}
+.footer-links li
+{
+display:block;
+}
+.footer-links a
+{
+color: black
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links.inline li
+{
+display:inline-block
+}
+.site-footer .social-icons
+{
+text-align:right
+}
+.site-footer .social-icons a
+{
+width:40px;
+height:40px;
+line-height:40px;
+margin-left:6px;
+margin-right:0;
+border-radius:100%;
+background-color:#33353d;
+}
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footer [class^=col-]
+{
+  margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+  padding-bottom:0
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+  text-align:center
+}
+}
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px
+}
+.social-icons li.title
+{
+margin-right:15px;
+text-transform:uppercase;
+color:#96a2b2;
+font-weight:700;
+font-size:13px
+}
+.social-icons a{
+background-color:#eceeef;
+color:#818a91;
+font-size:16px;
+display:inline-block;
+line-height:44px;
+width:44px;
+height:44px;
+text-align:center;
+margin-right:8px;
+border-radius:100%;
+-webkit-transition:all .2s linear;
+-o-transition:all .2s linear;
+transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+color:#fff;
+background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.social-icons a.facebook:hover
+{
+background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+.social-icons li.title
+{
+  display:block;
+  margin-right:0;
+  font-weight:600
+}
+}
+
+.searchbar{
+padding-top: 5px;
+}
+
+.search{
+padding-bottom: 6px;
+padding-left: 4px;
+}
+
+.bordafooter{
+display: block;
+background-color: rgb(165, 165, 165);
+height: 3px;
+border-bottom: 10px solid white;
+width: 100%;
+}
+
+.produtos{
+text-decoration: none;
+color: black;
+}
+
+.copyright-text{
+padding-top: 15px;
+}
+
+.nav-link{
+color: blue;
+margin-right: 5px;
+}
+
+#txtBusca{
+margin-left: 30px;
+border-radius: 15px;
+padding-left: 10px;
+margin-right: 10px;
+border: 2px solid blue;
+}
+
+.search{
+color: white;
+background-color: blue;
+height: 30px;
+width: 30px;
+padding-top: 5px;
+padding-right: 5px;
+margin-bottom: 6px;
+border-radius: 50%;
+}
+
+#usuario{
+border: 1px solid white;
+}
+
+.carrinho{
+border: 1px solid white;
+}
+
+.nav-link px-2 link-dark{
+color: blue;
+}
+
+.footertxt{
+padding-left: 30px;
+}
+
+.fb{
+color: darkblue;
+padding-bottom: -2px;
+}
+
+.tt{
+color: blue;
+padding-bottom: -2px;
+}
+
+.wpp{
+color: green;
+padding-bottom: -2px;
+}
+
+.li{
+color: #007bb6;
+padding-bottom: -2px;
+}
+
+.logobase{
+position: absolute;
+left: 10px;
+top: 5px;
+height: 100px;
+width: 110px;
+border-radius: 10px;
+
+}
+
+.blocobranco{
+display: block;
+background-color: white;
+border: 1px solid red;
+height: 30px;
+width: 100%;
+}
+
+.sobre{
+  color: white;
+  display: block;
+  background-color: blue;
+  width: fit-content;
+  padding: 20px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.texto{
+  color: black;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+}
+
+.coop{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 10px solid blue;
+  border-radius: 25px;
+}
+
+.trabalhe{
+  color: white;
+  display: block;
+  background-color: blue;
+  width: fit-content;
+  padding: 20px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+#formtrabalho{
+  width: fit-content;
+  height: fit-content;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxtrabalho{
+  width: fit-content;
+  height: fit-content;
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border: 10px solid blue;
+  border-radius: 10px;
+}
+
+label{
+  font-size: 18px;
+}
+
+.buttontrab{
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border: 1px solid blue;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.form{
+  border: 1px solid rgb(202, 202, 202);
+  width: 300px;
+  border-radius: 5px;
+}
+
+textarea{
+  display: block;
+  width: 300px;
+  height: 150px;
+}
+
+.botaocomprar{
+  display: block;
+  float: left;
+  margin-left: 100px;
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.descricao{
+  display: block;
+  float: left;
+  border: 8px solid blue;
+  border-radius: 10px;
+  margin-left: 50px;
+  height: fit-content;
+  width: 900px;
+  padding: 10px;
+}
+
+.caixa__item{
+  margin-top: 80px;
+}
+
+.linhafooter{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
